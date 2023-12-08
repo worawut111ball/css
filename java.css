@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(
+        180deg,
+        #000000 5%,
+        #00000070 20%,
+        #00000070 100%
+      ),
+      url(https://i.pinimg.com/originals/cd/91/7f/cd917ffff15a31088e3b385399c84e96.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Raleway:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #95a6ef;
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.box {
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  background-color: rgba(249, 249, 249, 0.952);
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #00ff08;
+  color: #121111;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b32d00;
+}
+
+#show {
+  color: #7ca824;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .box {
+      width: 100%;
+  }
+}
+iframe{
+margin: 10px 1px 1px 50px;
+}
