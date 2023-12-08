@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<style>
+    body {
+    background-image: linear-gradient(
+        180deg,
+        #0c0c0c 5%,
+        #7f797970 20%,
+        rgba(120, 112, 112, 0.439) 100%
+      ),
+      url(https://i.pinimg.com/originals/cd/91/7f/cd917ffff15a31088e3b385399c84e96.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Raleway', sans-serif;
+    
+  }
+    
+    .hero {
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+        & .col-md-6 {
+            text-align: center;
+        }
+        & h1 {
+            font-size: 3rem;
+        }
+        & img {
+            shape-image-threshold: 1px;
+            border-radius: 25% 25%;
+            box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+    }
+    
+    
+    #section3 {
+        height: 10vh;
+    }
+    
+    @media (max-width: 768px) {
+        img {
+            margin-top: 30px;
+            width: 100%;
+        }
+    }
+    
+    .navbar {
+        transition: background-color 0.3s ease;
+    }
+    
+    
+    
+    .navbar-white .navbar-toggler-icon {
+        background-color: #faf9f9;
+        /* ตั้งค่าสีตัว hamburger icon */
+    }
+    
+    .navbar-white .navbar-nav .nav-link {
+        color: #000 !important;
+    }
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="index.html" class="w3-bar-item w3-button"><b>BR</b> Architects</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="profile.html" class="w3-bar-item w3-button">profile</a>
+        <a href="java.html" class="w3-bar-item w3-button">Java</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        <a href="api.html" class="w3-bar-item w3-button">API</a>
+      </div>
+  </div>
+</div>
+
+
+<div class="hero">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>
+                <strong>
+                    <span id="name" class="w3-animate-opacity"><b>Name:<font color="#9c9eff"></font>
+                    </b>
+                    </span>
+                    <span class="typed-cursor" aria-hidden="true"><b><font color="#faf9f9">|</font>
+                    </b>
+                    </span>
+            </strong>
+            </h1><br><br>
+            <h4><p class="text-muted w3-animate-opacity">
+                <strong>department </strong>เทคโนโลยีสารสนเทศ</p>
+            <p class="text-muted w3-animate-opacity" >
+                <strong>Location </strong> มหาวิทยาลัยราชภัฏมหาสารคาม</p>
+                </h4>
+
+            <h3>
+                <span id="element" class="w3-animate-left">
+                    <b><font color="#faf9f9">Full-stack</font>
+                    </b>
+                </span>
+
+                <span class="typed-cursor" aria-hidden="true">
+                    <b><font color="#faf9f9">|</font>
+                    </b>
+                </span>
+            </h3><br><br><br><br><br>
+            <a href="https://instagram.com/ballworawut_?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" class="btn btn-outline-danger w3-animate-left"><i class="fab fa-instagram" aria-hidden="true"></i>INSTAGRAM</a>
+            <a href="https://www.facebook.com/profile.php?id=100015438736430&mibextid=LQQJ4d" class="btn btn-outline-primary w3-animate-left"><i class="fab fa-facebook" aria-hidden="true"></i> FACEBOOK</a>
+            <a href="https://github.com/worawut111ball" class="btn btn-outline-dark w3-animate-right"><i class="fab fa-github" aria-hidden="true"></i> GITHUB</a>
+        </div>
+        <div class="col-md-6">
+            
+            <img class="circular-image" src="ball.jpg" alt="Girl in a jacket" style="width:400px;height:500px;">
+        </div>
+    </div>
+</div>
+</header>
+</div>
+
+
+
+<div class="main" id="section3">
+
+</div> 
+
+<script>
+var typed = new Typed('#name', {
+strings: ['<b>Hi\'Im <font color="#faf9f9"> BALL </font></b>', '<b> Name <font color="#faf9f9"> WORAWUT  YODPANUT </font></b>'],
+typeSpeed: 60,
+backDelay: 4000,
+smartBackspace: true,
+showCursor: true,
+cursorChar: '<b><font color="#faf9f9">.</font></b>',
+autoInsertCss: true,
+loop: true
+
+});
+var typed = new Typed('#element', {
+strings: ['<b><font color="#faf9f9">Full-stack Developer. </font></b>'],
+typeSpeed: 60,
+backDelay: 4000,
+smartBackspace: true,
+showCursor: true,
+cursorChar: '<b><font color="#faf9f9">.</font></b>',
+autoInsertCss: true,
+loop: true
+
+});
+ </script>
+ <style data-typed-js-cursor-css="true">
+    .typed-cursor{
+      opacity: 1;
+    }
+    .typed-cursor.typed-cursor--blink{
+      animation: typedjsBlink 0.7s infinite;
+      -webkit-animation: typedjsBlink 0.7s infinite;
+              animation: typedjsBlink 0.7s infinite;
+    }
+    @keyframes typedjsBlink{
+      50% { opacity: 0.0; }
+    }
+    @-webkit-keyframes typedjsBlink{
+      0% { opacity: 1; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1; }
+    }
+  </style>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.querySelector('.navbar').classList.add('white');
+            } else {
+                document.querySelector('.navbar').classList.remove('white');
+            }
+        });
+    });
+</script>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
